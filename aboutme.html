@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <header>
+    <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><strong>About Me</strong></li>
+    <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+    </nav>
+    <meta charset="utf-8" />
+    <title>Daniel's old life and new future</title>
+  </header>
+  <body>
+      <main>
+          <h1>Daniel's Old life and new future.</h1>
+          <p> Choosing to leave my career as an explosives expert to start my new life.</p>
+        </main>
+        <hr>
+        <img src= "https://lh3.googleusercontent.com/fEDuD4utgfFLBcnRZBhJzaRj07btF-GVm7AXPcKXMRJtDXr-215aKdt-8a1NHsGxxCITXHwmbYwDKbehX169bUuZ7Kxlc5uYJyRkDnhpaRaGcuvcYu8uq3zxm-3BA-VgKZi_ersAhA=w600-h315-p-k" alt="me as an EOD technican in Afghanistan" />
+         <h2>My career as an Explosives Expert. </h2>
+          <p>I joined the military's bombsquad in 2007 at the age of 21. After leaving active duty I became a civilian EOD technician removing explosive threats in the middle east.
+          <br> From 2011-2022 I have spent eleven years in the middle east.
+          <br> I want to leave the  EOD field and to meet my goal I am pursing a degree in Computer Science at Harvard Extension School.</p>
+        <hr>
+<h3>Counting off the days until I graduate</h3>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()" -22222>
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+   <head>
+      <title>Calculate days until I graduate from today</title>
+   </head>
+   <body>
+      <script>
+         var date1, date2;
+         date1 = new Date();
+         date2 = new Date("05/15/2024");
+
+         var time_difference = date2.getTime() - date1.getTime();
+
+         var days_difference = time_difference / (1000 * 60 * 60 * 24);
+
+         document.write("Number of days until I graduate from today. <br>" +
+                         date1 + " and <br>" + date2 + " Graduation Date: <br>"
+                         + days_difference + " days until I graduate.");
+      </script>
+        <footer>
+        <p>Author: Daniel Palaghiuc <br> created for a CSCIE-7 class.</p>
+        <p><a href="mailto:Daniel.Palaghiuc@gmail.com">Daniel.Palaghiuc@gmail.com</a> <br><a href="mailto:Dap8132@g.harvard.edu">Dap8132@g.harvard.edu</a></p>
+      </footer>
+    </body>
+    </html>
